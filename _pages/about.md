@@ -9,3 +9,5 @@ redirect_from:
 ---
 
 This is Congying Xia's home on the web!
+
+Lorem ipsum.
