@@ -85,10 +85,9 @@ author:
   bio              : "PHD student at UIC"
   location         : "Chicago"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=vIUcI4EAAAAJ&hl=en"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Congying_Xia"
   uri              :
   bitbucket        :
   codepen          :
@@ -102,8 +101,7 @@ author:
   instagram        : "congying__"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/congyingxia"
+  linkedin         : "https://www.linkedin.com/in/congying-xia-391b16b9/"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
