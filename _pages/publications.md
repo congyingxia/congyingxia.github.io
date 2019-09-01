@@ -4,8 +4,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Conference Papers
-
 <b>[Multi-Grained Named Entity Recognition](/publications/acl19)</b> <br>
 Congying Xia, Chenwei Zhang, Philip S. Yu. <i>ACL 2019</i> (Long) . 
 [[PDF]](https://arxiv.org/pdf/1809.00385.pdf) [[Code]](https://github.com/congyingxia/Multi-Grained-NER) [[BibTeX]](/publications/emnlp18)
