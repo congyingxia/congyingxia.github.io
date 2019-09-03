@@ -4,8 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<b>[Multi-Grained Named Entity Recognition](/publications/acl19)</b> <br>
-<b>Congying Xia</b>, Chenwei Zhang, Tao Yang, Yaliang Li, Nan Du, Xian Wu, Wei Fan, Fenglong Ma and Philip S. Yu. <i>ACL 2019.(long) </i> 
+<b>Congying Xia</b>, Chenwei Zhang, Tao Yang, Yaliang Li, Nan Du, Xian Wu, Wei Fan, Fenglong Ma and Philip S. Yu. Multi-Grained Named Entity Recognition. <i> In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL), 2019.(long) </i> 
 [[PDF]](https://arxiv.org/pdf/1809.00385.pdf) [[Code]](https://github.com/congyingxia/Multi-Grained-NER) [[BibTeX]](/publications/acl19)
 
 <b>[Zero-shot User Intent Detection via Capsule Neural Networks](/publications/emnlp18)</b> <br>
