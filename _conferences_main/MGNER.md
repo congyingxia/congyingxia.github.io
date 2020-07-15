@@ -11,7 +11,7 @@ thumbnail: "MGNER.png"
 teaser : 
 authors: "Congying Xia, Chenwei Zhang, Tao Yang, Yaliang Li, Nan Du, Xian Wu, Wei Fan, Fenglong Ma"
 bibtex: MGNER.txt
-uri: MGNER.pdf
+uri: https://arxiv.org/abs/1906.08449
 arxiv: 
 project: 
 source:

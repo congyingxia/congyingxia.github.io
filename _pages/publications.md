@@ -11,7 +11,7 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign yearArray = "2019" | split: ", " %}
+{% assign yearArray = "2019, 2018" | split: ", " %}
 
 {% for i in yearArray %}
 ### {{i}}

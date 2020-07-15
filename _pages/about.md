@@ -33,7 +33,7 @@ Publications
 </div> 
 
 
-Preprint Paper
+Preprints
 ----------
 <div>
   <table>
