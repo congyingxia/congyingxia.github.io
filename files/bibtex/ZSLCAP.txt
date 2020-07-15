@@ -1,0 +1,17 @@
+@inproceedings{xia-etal-2018-zero,
+    title = "Zero-shot User Intent Detection via Capsule Neural Networks",
+    author = "Xia, Congying  and
+      Zhang, Chenwei  and
+      Yan, Xiaohui  and
+      Chang, Yi  and
+      Yu, Philip",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = oct # "-" # nov,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D18-1348",
+    doi = "10.18653/v1/D18-1348",
+    pages = "3090--3099",
+    abstract = "User intent detection plays a critical role in question-answering and dialog systems. Most previous works treat intent detection as a classification problem where utterances are labeled with predefined intents. However, it is labor-intensive and time-consuming to label users{'} utterances as intents are diversely expressed and novel intents will continually be involved. Instead, we study the zero-shot intent detection problem, which aims to detect emerging user intents where no labeled utterances are currently available. We propose two capsule-based architectures: IntentCapsNet that extracts semantic features from utterances and aggregates them to discriminate existing intents, and IntentCapsNet-ZSL which gives IntentCapsNet the zero-shot learning ability to discriminate emerging intents via knowledge transfer from existing intents. Experiments on two real-world datasets show that our model not only can better discriminate diversely expressed existing intents, but is also able to discriminate emerging intents when no labeled utterances are available.",
+}

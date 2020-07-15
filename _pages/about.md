@@ -16,7 +16,7 @@ My primary research interest lies in Natural Language Processing, like named ent
 I interned at Salesforce Research, Google AI and Tecent Medical AI lab during the PHD period.
 
 
-Conferences
+Publications
 ----------
 <div>
   <table>
