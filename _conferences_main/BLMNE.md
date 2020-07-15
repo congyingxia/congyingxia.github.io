@@ -9,7 +9,7 @@ city:
 state: ""
 thumbnail: "BLMNE.png"
 teaser : 
-authors: "Jiawei Zhang, Congying Xia, Chenwei Zhang, Limeng Cui, Yanjie Fu, S Yu Philip"
+authors: "CJiawei Zhang, Congying Xia, Chenwei Zhang, Limeng Cui, Yanjie Fu, S Yu Philip"
 bibtex: BLMNE.txt
 uri: https://arxiv.org/abs/1711.09409
 arxiv: 
