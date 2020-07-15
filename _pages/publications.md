@@ -1,18 +1,28 @@
 ---
 layout: archive
 title: "Publications"
-permalink: /publications/
+permalink: /conferences/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
+<!-- {% if site.author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+{% endif %} -->
 
 {% include base_path %}
 
+{% assign yearArray = "2019" | split: ", " %}
+
+{% for i in yearArray %}
+### {{i}}
 <table>
-{% for post in site.publications reversed %}
+{% for post in site.conferences reversed %}
+  {% if post.year == i %}
   <tr>{% include publication.html %}</tr>
+  {% endif %}
 {% endfor %}
 </table>
+{% endfor %}
+
+
+
