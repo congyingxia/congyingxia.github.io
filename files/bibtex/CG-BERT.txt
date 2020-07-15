@@ -1,0 +1,6 @@
+@article{xia2020cg,
+  title={CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection},
+  author={Xia, Congying and Zhang, Chenwei and Nguyen, Hoang and Zhang, Jiawei and Yu, Philip},
+  journal={arXiv preprint arXiv:2004.01881},
+  year={2020}
+}

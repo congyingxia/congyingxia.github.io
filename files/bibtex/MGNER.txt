@@ -1,0 +1,21 @@
+@inproceedings{xia-etal-2019-multi,
+    title = "Multi-grained Named Entity Recognition",
+    author = "Xia, Congying  and
+      Zhang, Chenwei  and
+      Yang, Tao  and
+      Li, Yaliang  and
+      Du, Nan  and
+      Wu, Xian  and
+      Fan, Wei  and
+      Ma, Fenglong  and
+      Yu, Philip",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P19-1138",
+    doi = "10.18653/v1/P19-1138",
+    pages = "1430--1440",
+    abstract = "This paper presents a novel framework, MGNER, for Multi-Grained Named Entity Recognition where multiple entities or entity mentions in a sentence could be non-overlapping or totally nested. Different from traditional approaches regarding NER as a sequential labeling task and annotate entities consecutively, MGNER detects and recognizes entities on multiple granularities: it is able to recognize named entities without explicitly assuming non-overlapping or totally nested structures. MGNER consists of a Detector that examines all possible word segments and a Classifier that categorizes entities. In addition, contextual information and a self-attention mechanism are utilized throughout the framework to improve the NER performance. Experimental results show that MGNER outperforms current state-of-the-art baselines up to 4.4{\%} in terms of the F1 score among nested/non-overlapping NER tasks.",
+}
