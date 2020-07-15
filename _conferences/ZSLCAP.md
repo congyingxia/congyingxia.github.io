@@ -14,7 +14,7 @@ bibtex: ZSLCAP.txt
 uri: https://arxiv.org/abs/1809.00385
 arxiv: 
 project: 
-source:
+source: https://github.com/congyingxia/ZeroShotCapsule
 poster: 
 data:
 ---
