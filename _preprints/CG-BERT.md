@@ -10,8 +10,8 @@ thumbnail: "CG-BERT.png"
 teaser :
 authors: "Congying Xia, Chenwei Zhang, Hoang Nguyen, Jiawei Zhang, Philip Yu"
 bibtex: CG-BERT.txt
-uri:
-arxiv: https://arxiv.org/abs/2004.01881
+uri: https://arxiv.org/abs/2004.01881
+arxiv: 
 source: 
 poster: 
 data:
