@@ -1,0 +1,7 @@
+@inproceedings{sun2018mega,
+  title={Joint Embedding of Meta-Path and Meta-Graph for Heterogeneous Information Networks},
+  author={Sun, Lichao and He, Lifang and Huang, Zhipeng and Cao, Bokai and Xia, Congying and Wei, Xiaokai and Yu, Philip S.},
+  booktitle={IEEE International Conference on Big Knowledge},
+  year={2018},
+  organization={IEEE}
+}

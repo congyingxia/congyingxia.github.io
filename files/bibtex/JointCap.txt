@@ -1,0 +1,6 @@
+@article{liang2020joint,
+  title={Joint Training Capsule Network for Cold Start Recommendation},
+  author={Liang, Tingting and Xia, Congying and Yin, Yuyu and Yu, Philip S},
+  journal={arXiv preprint arXiv:2005.11467},
+  year={2020}
+}
