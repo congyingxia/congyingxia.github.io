@@ -2,7 +2,7 @@
 title: "CG-BERT: Conditional Text Generation with BERT for Generalized Few-shot Intent Detection"
 collection: preprints
 permalink: /publication/CG-BERT
-date: 
+date: 2020-04-04
 venue: "CoRR abs/2004.01881"
 city: 
 state: ""
