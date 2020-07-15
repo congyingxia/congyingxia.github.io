@@ -1,4 +1,4 @@
----
+﻿---
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -9,51 +9,57 @@ redirect_from:
 
 {% include base_path %}
 
+Personal Information
+----------
+*******
+* Date of Birth　　　　　　19 May, 1983
+* Gender　　　　　　　　 &ensp;Male
+* Nationality　　　　　　　People's Republic of China
+
 Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+----------
+*******
+* B.A. in Environmental Engineering , Hunan University, 2002 - 2006
+* M.E. in Control Science and Engineering, Hunan University, 2006 - 2009
+* Ph.D in Computer Science, Nanyang Technological University, 2009 - 2014
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+Work Experience
+----------
+*******
+* 2013.09 - 2014.05: Research Assistant
+  * Nanyang Technological University
+  * Supervisor: Prof. Ivor Tsang
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2014.06 - 2016.09: Senior Research Assistant
+  * School of Computer Engineering, The University of Adelaide
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 2016.09 - now: Professor / PhD Tutor
+  * School of Software Engineering, South China University of Technology
+
+
+Research Interest
+--------
+********
+* Machine learning 
+  * Machine learning theory
+  * Tensor analysis
+  * Large-scale parallel optimization
+  * Intelligent recommendation system
+
+* Computer vision
+  * Deep learning
+  * Image Identification
+  * Video understanding
+  * Transfer learning
+  * Image stabilization
+
+Research funding
+---------
+********
+* Hosted or participated in more than 10 national natural science funds, provincial international cooperation projects and enterprise horizontal projects.
+
+<!-- Programming Skills
+----------
+*******
+* Strong programming ability in C/C++.
+* Familiar with Python programming. -->

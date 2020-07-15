@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Congying Xia"
-title_separator          : "Congying Xia"
-name                     : &name "Congying Xia"
-description              : &description "PHD student at UIC"
-url                      : https://congyingxia.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "Mingkui Tan's Site"
+title_separator          : "-"
+name                     : &name "Mingkui Tan"
+description              : &description "personal description"
+url                      : https://tanmingkui.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "congyingxia.github.io"
+repository               : "tanmingkui/tanmingkui.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Congying Xia"
+  name             : "Mingkui Tan"
   avatar           : "profile.png"
-  bio              : "PHD student at UIC"
-  location         : "Chicago"
-  employer         :
-  googlescholar    : "https://scholar.google.com/citations?user=vIUcI4EAAAAJ&hl=en"
-  email            :
-  researchgate     : "https://www.researchgate.net/profile/Congying_Xia"
+  bio              : Research Scientist
+  location         : "Guangzhou, China"
+  employer         : "SCUT"
+  googlescholar    : "https://scholar.google.com.sg/citations?user=EVsoTGkAAAAJ&hl=en"
+  email            : "mingkuitan@scut.edu.cn"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -95,24 +95,25 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "congyingxia"
+  github           : "tanmingkui"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "congying-xia-391b16b9"
+  linkedin         :
+  orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : # "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
+  laboratory       : # "SMIL"
 
 
 # Reading Files
@@ -127,23 +128,22 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
   - Capfile
+  - CHANGELOG
+  - config
   - Gemfile
   - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - config
   - gulpfile.js
+  - LICENSE
   - log
   - node_modules
   - package.json
+  - Rakefile
+  - README
   - tmp
-  - vendor
 keep_files:
   - .git
   - .svn
@@ -173,22 +173,45 @@ kramdown:
 
 # Collections
 collections:
-  # teaching:
-   # output: true
-    # permalink: /:collection/:path/
-  publications:
+  teaching:
     output: true
     permalink: /:collection/:path/
-  # portfolio:
-    # output: true
-    # permalink: /:collection/:path/
-  # talks:
-    # output: true
-    # permalink: /:collection/:path/
+  conferences:
+    output: true
+    permalink: /:collection/:path/
+  journals:
+    output: true
+    permalink: /:collection/:path/
+  conferences_main:
+    output: true
+    permalink: /:collection/:path/
+  journals_main:
+    output: true
+    permalink: /:collection/:path/
+  preprints:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: ""
@@ -196,10 +219,46 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _publications
+  # _teaching
   - scope:
       path: ""
-      type: publications
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: 
+      comments: 
+  # _conferences
+  - scope:
+      path: ""
+      type: conferences
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _journals
+  - scope:
+      path: ""
+      type: journals
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _conferences_main
+  - scope:
+      path: ""
+      type: conferences_main
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _journals_main
+  - scope:
+      path: ""
+      type: journals_main
     values:
       layout: single
       author_profile: true
@@ -214,6 +273,14 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:

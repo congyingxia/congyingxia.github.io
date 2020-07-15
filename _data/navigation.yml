@@ -1,16 +1,27 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Conferences"
+    url: /conferences/
 
-  #- title: "Talks"
-  #  url: /talks/    
+  - title: "Journals"
+    url: /journals/
 
-  #- title: "Teaching"
-  #  url: /teaching/    
-        
-  #- title: "Blog Posts"
-  #  url: /year-archive/
+  # - title: "Talks"
+  #   url: /talks/    
+
+  - title: "My Students"
+    url: /laboratory_students/
+
+
+  - title: "Teaching"
+    url: /teaching/    
     
-  #- title: "CV"
-  #  url: /cv/
+  # - title: "Portfolio"
+  #   url: /portfolio/
+        
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+    
+#   - title: "CV"
+#     url: /cv/
+    

@@ -1,4 +1,4 @@
----
+﻿---
 permalink: /
 title: "About me"
 excerpt: "About me"
@@ -8,9 +8,51 @@ redirect_from:
   - /about.html
 ---
 
-Hi, my name is Congying Xia. I am a 4th-year Ph.D. student in the Department of Computer Science at University of Illinois at Chicago. I am fortunate to be advised by Professor Philip S. Yu. Prior to that, I received B.S. and M.S. from University of Science and Technology, Beijing.
+<br />
+　　I am currently a professor with the School of Software Engineering at South China University of Technology. I received my Bachelor Degree in Environmental Science and Engineering in 2006 and Master degree in Control Science and Engineering in 2009, both from Hunan University in Changsha, China. I received the Ph.D. degree in Computer Science from Nanyang Technological University, Singapore, in 2014. From 2014-2016, I worked as a Senior Research Associate on computer vision in the School of Computer Science, University of Adelaide, Australia. My research interests include machine learning, sparse analysis, deep learning and large-scale optimization.
 
-My primary research interest lies in Natural Language Processing, like named entity reconition and intent detection. In particular, I am interested in understanding natural language in low-resource senarios such as zero-shot learning and few-shot learning.
+
+Conferences
+----------
+<div>
+  <table>
+  {% for post in site.conferences_main reversed %}
+    <tr>{% include publication.html %}</tr>
+  {% endfor %}
+  </table>
+</div>
+
+<div margin-bottom:100px>
+  <a href="/conferences/">
+    <button class="btn btn--readmore">Read more <font size="1">>></font></button>
+  </a>
+</div> 
 
 
-I interned at Salesforce Research, Google AI and Tecent Medical AI lab during the PHD period. 
+Journals
+----------
+<div>
+  <table>
+  {% for post in site.journals_main reversed %}
+    <tr>{% include publication.html %}</tr>
+  {% endfor %}
+  </table>
+</div>
+
+<div margin-bottom:100px>
+  <a href="/journals/">
+    <button class="btn btn--readmore">Read more <font size="1">>></font></button>
+  </a>
+</div> 
+
+
+Preprint Paper
+----------
+<div>
+  <table>
+  {% for post in site.preprints reversed %}
+    <tr>{% include publication.html %}</tr>
+  {% endfor %}
+  </table>
+</div>
+
