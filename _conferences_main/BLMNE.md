@@ -1,5 +1,5 @@
 ---
-title: "Multi-Grained Named Entity Recognition"
+title: "BL-MNE: Emerging Heterogeneous Social Network Embedding through Broad Learning with Aligned Autoencoder"
 collection: conferences
 permalink: /publication/BLMNE
 date: 2017-11-18
