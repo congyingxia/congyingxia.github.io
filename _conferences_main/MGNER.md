@@ -15,6 +15,6 @@ uri: https://arxiv.org/abs/1906.08449
 arxiv: 
 project: 
 source: https://github.com/congyingxia/Multi-Grained-NER
-poster: 
+poster: MGNER.pdf
 data:
 ---
