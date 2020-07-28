@@ -16,5 +16,6 @@ arxiv:
 project: 
 source: https://github.com/congyingxia/ZeroShotCapsule
 poster: 
+video: https://vimeo.com/305945714
 data:
 ---
