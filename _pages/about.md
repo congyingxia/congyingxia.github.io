@@ -23,7 +23,7 @@ Publications
   </table>
 </div>
 
-<div margin-bottom:100px>
+<div>
   <a href="/conferences/">
     <button class="btn btn--readmore">Read more <font size="1">>></font></button>
   </a>
