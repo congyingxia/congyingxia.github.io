@@ -1,0 +1,6 @@
+@article{xia2020composed,
+  title={Composed Variational Natural Language Generation for Few-shot Intents},
+  author={Xia, Congying and Xiong, Caiming and Yu, Philip and Socher, Richard},
+  journal={arXiv preprint arXiv:2009.10056},
+  year={2020}
+}

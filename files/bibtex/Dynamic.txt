@@ -1,0 +1,6 @@
+@article{nguyen2020dynamic,
+  title={Dynamic Semantic Matching and Aggregation Network for Few-shot Intent Detection},
+  author={Nguyen, Hoang and Zhang, Chenwei and Xia, Congying and Yu, Philip S},
+  journal={arXiv preprint arXiv:2010.02481},
+  year={2020}
+}
