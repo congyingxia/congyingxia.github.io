@@ -1,0 +1,6 @@
+@article{sun2020mixup,
+  title={Mixup-Transfomer: Dynamic Data Augmentation for NLP Tasks},
+  author={Sun, Lichao and Xia, Congying and Yin, Wenpeng and Liang, Tingting and Yu, Philip S and He, Lifang},
+  journal={arXiv preprint arXiv:2010.02394},
+  year={2020}
+}

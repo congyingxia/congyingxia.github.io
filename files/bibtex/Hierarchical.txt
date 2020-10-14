@@ -1,0 +1,6 @@
+@article{nguyen2020dynamic,
+  title={Hierarchical Bi-Directional Self-Attention Networks for Paper Review Rating Recommendation},
+  author={Zhongfen Deng, Hao Peng, Congying Xia, Jianxin Li, Lifang He and Philip Yu},
+  journal={arXiv preprint arXiv:},
+  year={2020}
+}

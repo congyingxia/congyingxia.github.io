@@ -1,0 +1,6 @@
+@article{zhang2020mzet,
+  title={MZET: Memory Augmented Zero-Shot Fine-grained Named Entity Typing},
+  author={Zhang, Tao and Xia, Congying and Lu, Chun-Ta and Yu, Philip},
+  journal={arXiv preprint arXiv:2004.01267},
+  year={2020}
+}
